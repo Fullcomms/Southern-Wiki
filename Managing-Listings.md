@@ -1,6 +1,6 @@
 # View Listings Area
 
-This area can be found within the CMS under Listings>View Listings or here at [View Listings](http://southern.test/admin/listing)
+This area can be found within the CMS under Listings>View Listings or here at [View Listings](shosales.co.uk/admin/listing)
 
 ## Searching for a property
 
@@ -19,6 +19,21 @@ Once a property has been created within Full Circle and all the necessary criter
 All financial information about the property is entered within Full circle along with the creation of plots. This is to remove any inconsistencies in property information between Full Circle & the CMS.
 
 Once a listing has been created within Full Circle and has appeared in the pending properties area it's time to add any marketing information, images, descriptions, carry out customer journey management & add address information.
+
+The buttons for pending properties are as follows
+
+Clicking into **Actions**
+* Edit - This is for editing a listing
+* Add Floor Plan - This is for adding a floor plan to a plot (this can only be done once a plot has been created & assigned to this property, in the case of a resale one should already be assigned & available to use)
+* Preview - This is for viewing the listing on the frontend before making it live to the public
+* Archive - This will archive the property and move it to the "Archived Listings" area
+
+Clicking into **Emails**
+* Booking Confirmation - Edit the Booking Confirmation Email sent to the customer
+* Register Interest - Edit the Register Interest Email sent to the customer
+* Viewings Available - Edit the Viewings Available Email sent to the customer (this is for when new viewing days & slots have been added to a property)
+
+Hidden - This button is for making a property live once all the relevant marketing information has been added via Edit.
 
 ## Editing a Property
 
@@ -69,3 +84,65 @@ Sales Consultant, a lot like the email notifications input, is the owner of the 
 Hit save and that will commit all the changes to the database.
 
 NOTICE!! Hitting save will not set the property live, this gives you the chance to preview the listing and make sure everything displays as you require.
+
+## Live Properties
+
+This is a list of properties that are currently live on the frontend of the website.
+
+All the buttons within this section are the same as Pending Properties with the exception of the Preview button.
+
+Clicking live however will move the property to the pending properties area for editing etc and customers will not be able to view the property on the fronend.
+
+# View Archived Listings Area
+
+This area is where all listings that aren't live and are archived are kept. They can be de-archived by clicking the appropriately labeled button which will place the property within Pending Properties for edit & making live. 
+
+The property can also be edited within this area and floor plans added.
+
+Properties are never completely deleted again because of the link between Full Circle & the CMS. The reasoning behind this is that it ensures all data is kept for reporting purposes.
+
+# View Floor Plans Area
+
+This area is for managing **existing** floor plans that are already assigned to properties. 
+
+## Search Properties
+
+This is the same as the View Listings search in that you can search for the plots that are related to the searched listing name. 
+
+If you know the exact plot name that you would like to edit the floor plans of you can also search via Search Plot
+
+## Editing Floor Plan
+
+When you click edit on your chosen floor plan you will be taken to a page with all the floor plans that are associated with that plot. Above this is a header explaining that if rather than editing the floor plan you would like to add a new one simply click where it says _click here_.
+
+# View Property Features
+
+This area is for creating & editing the features section of the listing on the frontend.
+
+If you scroll to the bottom of the page this is where the property features creation area is. 
+
+This area is exactly the same as the old CMS however using the new image uploader.
+
+Simply select the property you wish to add a feature to, input the image, add a title and fill out the description.
+
+# View Mortgage Brokers
+
+This area is, as mentioned when assigning to a property, for creating and managing mortgage brokers. 
+
+## Search Brokers
+
+You can search for brokers by either the company name they are assigned to, or the email address the broker uses to login.
+
+## Creating a Broker
+
+At the bottom of the page is the broker creation area. 
+
+Broker Company name is the associated company the mortgage broker works for. If there are already existing brokers from the broker firm within the system you can also select an existing company using the input labelled _Select Broker Address by Company Name or Create New Below_.
+
+Enter the desired email address to be used by the mortgage broker and give them a password. **Please note, you will need to remember this password as the mortgage broker will ask you for this when they attempt to login for the first time. After this they are able to change their password within their account area to something more memorable.**
+
+Once finished hit submit & the new broker will be emailed with the link to the login page which is [Login](shosales.co.uk/login/broker). If they have trouble logging in and have contacted a member of your team direct them to this link and ask them to try again as they may be trying to login on the wrong page.
+
+# Conclusion
+
+This concludes the Listing Management area of the CMS. If you have any questions about this area that isn't already explained in this wiki please get in touch and we will inform you thusly and also update this wiki.
